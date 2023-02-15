@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'spring-rest-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_29AE33A42A41495B93997C51785B55BC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_49896A0D449941A6A21F0184F388B950 }}
           package: '*.jar'
