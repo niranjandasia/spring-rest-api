@@ -11,7 +11,7 @@
 	<groupId>com.hello</groupId>
 	<artifactId>spring-rest-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>spring-rest-api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -21,13 +21,8 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -36,7 +31,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>app</finalName>
+		<!--<finalName>app</finalName>-->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
